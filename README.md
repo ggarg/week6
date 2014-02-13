@@ -1,6 +1,4 @@
-## Week 6
-
-Here's how to get started:
+## Preparation
 
 * Clone this repository to a directory on your laptop.
 * Open the application code in Sublime Text.
