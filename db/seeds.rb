@@ -1,3 +1,12 @@
+Category.destroy_all
+["Toys", "Electronics", "Furniture", "Other"].each do |category_name|
+  c = Category.new
+  c.name = category_name
+  c.save
+end
+
+
+Item.destroy_all
 product_catalog = [ { :name => "Helicopter Toy",
                         :price => 299,
                         :image_url => 'http://ecx.images-amazon.com/images/I/61l6Rcyy1sL._SL1500_.jpg',
@@ -25,7 +34,6 @@ product_catalog = [ { :name => "Helicopter Toy",
                       }
                     ]
 
-Item.destroy_all
 product_catalog.each do |product_info|
   p = Item.new
   p.name = product_info[:name]

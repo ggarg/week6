@@ -1,7 +1,8 @@
 class ProductsController < ApplicationController
 
   def index
-    @product_list = Item.all
+    c = Category.find_by(:name => "Toys")
+    @product_list = Item.all.where(:category_id => c.id)
   end
 
   def show

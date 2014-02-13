@@ -6,7 +6,7 @@
 <% @product_list.each do |product| %>
   <div class="row">
     <div class="col-md-4">
-      <a href="/products/<%= product.id %>/show"><img width="200" src="<%= product.image_url %>"></a>
+      <a href="/products/show?product_id=<%= product.id %>"><img width="200" src="<%= product.image_url %>"></a>
     </div>
     <div class="col-md-8">
       <h3><a href="/products/<%= product.id %>/show"><%= product.name %></a></h3>
