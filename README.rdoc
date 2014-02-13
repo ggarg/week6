@@ -1,0 +1,7 @@
+== Week 5
+
+The code this week helps demonstrate:
+
+* Database-backed models
+* Dynamic route segments
+
