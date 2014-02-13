@@ -8,16 +8,14 @@
 * `rake db:seed`
 * `rails server`
 
-Then:
+## 30-Minute Challenge
 
 * Navigate your browser so that you can see the list of products.
 * Try clicking on an item's photo or title, to go to the product's details page.
 * Try editing an item's information.
 * Try deleting an item.
 
-You can `rake db:seed` whenever you want to perform a "factory reset" on the product catalog again.
-
-## 30-Minute Challenge
+HINT: You can `rake db:seed` whenever you want to perform a "factory reset" on the product catalog again.
 
 Be ready to answer the following questions:
 
