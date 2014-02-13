@@ -12,6 +12,11 @@
       <h3><a href="/products/<%= product.id %>/show"><%= product.name %></a></h3>
       <p class="lead"><%= number_to_currency(product.price) %></p>
       <p><%= product.description %></p>
+
+      <p class="pull-right">
+      <%= link_to "Edit", "/products/#{product.id}/edit" %> |
+      <%= link_to "Delete", "/products/#{product.id}/delete" %>
+</p>
     </div>
   </div>
 <% end %>

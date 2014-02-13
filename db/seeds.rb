@@ -34,3 +34,6 @@ product_catalog.each do |product_info|
   p.description = product_info[:description]
   p.save
 end
+
+puts "There are now #{Item.count} products in the catalog."
+
